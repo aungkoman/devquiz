@@ -15,6 +15,10 @@ class MainRoute extends StatefulWidget {
 class _MainRouteState extends State<MainRoute> {
   @override
   Widget build(BuildContext context) {
+
+    List<MainMenuCardInterface> mainMenuCardInterfaceList = [
+      MainMenuCardImpl()
+    ];
     return Scaffold(
       appBar: AppBar(
         title: Text("Dev Quiz"),
